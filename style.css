@@ -391,16 +391,16 @@ br {
 /* Box layout */
 
 #screen {
-    display: block;
+    display: inline-block;
     background: #ffffff;
     width: 100%;
     height: 100%;
     margin: auto;
-    overflow: visible;
+    overflow: auto;
 }
 
 #top {
-    display: block;
+    display: inline-block;
     width: 100%;
     height: 6%;
     margin: 0;
@@ -410,21 +410,21 @@ br {
     /*background-color: #04d2ed;*/
 /*    background-color: #f51e27;*/
     z-index: 10;
-    overflow: inherit;
+    overflow: auto;
 }
 
 #content {
     padding-top: 6%;
-    display: block;
+    display: inline-block;
     width: 100%;
-    overflow: inherit;
+    overflow: auto;
 }
 
 /* Profile layout */
 
 .profbox {
     height: 240px;
-    display: block;
+    display: inline-block;
     margin: 20px 30px 20px 30px;
     float: centre;
     outline: black dotted 3px;
