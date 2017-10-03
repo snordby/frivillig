@@ -320,7 +320,7 @@ img.quarters {
 
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 620px) {
     /* start of phone styles */
 
 html {
