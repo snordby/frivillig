@@ -161,7 +161,7 @@ img.halves {
 img.thirds {
     position: relative;
     display: inline-block;
-    width: 33%;
+    width: 33.33%;
     padding: 0;
     margin: 0;
 }
