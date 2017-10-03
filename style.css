@@ -97,7 +97,7 @@ br {
 #top {
     display: block;
     width: 100%;
-    height: 6%;
+    height: 70px;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -108,7 +108,7 @@ br {
 }
 
 #content {
-    padding-top: 6%;
+    padding-top: 70px;
     display: block;
     width: 100%;
 }
