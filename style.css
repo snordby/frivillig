@@ -169,7 +169,7 @@ img.quarters {
     /* start of phone styles */
 
 html {
-     height: 1280px;
+     height: 100%;
 }
      
 body {
@@ -240,13 +240,13 @@ br {
     width: 100%;
     height: 100%;
     margin: auto;
-    overflow: auto;
+    overflow: visible;
 }
 
 #top {
     display: inline-block;
     width: 100%;
-    height: 6%;
+    height: 5%;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -254,14 +254,14 @@ br {
     /*background-color: #04d2ed;*/
 /*    background-color: #f51e27;*/
     z-index: 10;
-    overflow: auto;
+    overflow: visible;
 }
 
 #content {
-    padding-top: 6%;
+    padding-top: 5%;
     display: inline-block;
     width: 100%;
-    overflow: auto;
+    overflow: visible;
 }
 
 /* Profile layout */
