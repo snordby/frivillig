@@ -74,14 +74,14 @@ br {
 #screen {
     display: block;
     background: white;
-    width: 720px;
+    width: 100%;
     height: 1280px;
     margin: auto;
 }
 
 #top {
     display: inline-block;
-    width: 720px;
+    width: 100%;
     height: 50px;
     margin: 0;
     padding: 0;
@@ -139,7 +139,7 @@ img.profpic {
 
 img.halves {
     display: inline-block;
-    width: 360px;
+    width: 50%;
     padding: 0;
     margin: 0;
 }
@@ -154,7 +154,7 @@ img.thirds {
 
 img.quarters {
     display: inline-block;
-    width: 180px;
+    width: 25%;
     padding: 0;
     margin: 0;
 }
