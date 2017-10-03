@@ -78,7 +78,7 @@ br {
 
 #top {
     display: inline-block;
-    width: 100%;
+    min-width: 100%;
     max-height: 4%;
     margin: 0;
     padding: 0;
