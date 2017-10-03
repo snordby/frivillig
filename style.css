@@ -322,13 +322,18 @@ img.quarters {
 
 @media screen and (max-width: 479px) {
     /* start of phone styles */
-    
+
+html {
+     height: 100%;
+}
+     
 body {
     background: silver;
     margin: 0;
     padding: 0;
     overflow: visible;
     line-height: 0%;
+    height: 100%;
 }
 
 /* Typography and paragraphs */
