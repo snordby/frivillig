@@ -78,7 +78,7 @@ br {
 #top {
     display: inline-block;
     width: auto;
-    max-height: 4%;
+    max-height: 90px;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -90,7 +90,7 @@ br {
 }
 
 #content {
-    padding-top: 4%;
+    padding-top: 90px;
     display: inline-block;
     width: 100%;
     overflow: visible;
