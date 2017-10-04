@@ -21,6 +21,7 @@ body {
 
 video {
     width: 320px;
+    min-height: 560px;
 }
 
 /* Typography and paragraphs */
@@ -42,6 +43,7 @@ a.mere {
     text-align: center;
     color: black;
     font-size: 14pt;
+    padding-top: 6px;
 }
 
 p {
@@ -91,6 +93,7 @@ br {
     width: 320px;
     height: auto;
     margin: auto;
+    margin-bottom: 60px;
 }
 
 #top {
@@ -165,6 +168,7 @@ p.proftxt {
 
 .box0 {
     height: auto;
+    min-width: 260px;
     display: block;
     margin: 20px 20px 10px 20px;
     float: centre;
@@ -197,6 +201,22 @@ p.proftxt {
 .row {
     max-width: 700px;
 
+}
+
+.knapM {
+    height: auto;
+    min-width: 270px;
+    max-width: 320px;
+    display: inline-block;
+    margin: 20px 0px 10px 20px;
+    float: centre;
+    outline: red solid 3px;
+    padding: 6px;
+    background: tomato;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 600;
 }
 
 .knapL {
