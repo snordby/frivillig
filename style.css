@@ -163,7 +163,7 @@ p.proftxt {
 
 /* Opslag layout */
 
-.opsbox0 {
+.box0 {
     height: auto;
     display: block;
     margin: 20px 20px 10px 20px;
@@ -178,7 +178,28 @@ p.proftxt {
     display: inline-block;
 }
 
-.opsboxL {
+.box1 {
+    height: auto;
+    min-width: 260px;
+    display: block;
+    margin: 20px 20px 10px 20px;
+    float: centre;
+    outline: lime dotted 3px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    text-align: left;
+    padding: 10px;
+    display: inline-block;
+}
+
+.row {
+    max-width: 700px;
+
+}
+
+.knapL {
     height: auto;
     min-width: 110px;
     max-width: 120px;
@@ -194,7 +215,7 @@ p.proftxt {
     font-weight: 600;
 }
 
-.opsboxR {
+.knapR {
     height: auto;
     min-width: 110px;
     max-width: 120px;
@@ -225,10 +246,6 @@ p.opstxt {
 
 /* Image properties */
 
-img {
-    padding: 12px;
-}
-
 img.profpic0 {
     display: inline-block;
     width: 100px;
@@ -246,11 +263,90 @@ img.profpicR {
     float: right;
 }
 
+.icontainer2 {
+    position: relative;
+    color: white;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.icontainer3 {
+    position: relative;
+    color: white;
+    width: 33.33%;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.icontainer5 {
+    position: relative;
+    color: white;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+p.itxt2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 8pt;
+    font-weight: 500;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding-right: 2pt;
+    padding-top: 2pt;
+    padding-bottom: 0;
+    text-align: right;
+    word-wrap: normal;
+    line-height: 100%;
+}
+
+p.itxt3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding-right: 4pt;
+    padding-top: 4pt;
+    padding-bottom: 0;
+    text-align: right;
+    word-wrap: normal;
+    line-height: 100%;
+}
+
+p.itxt5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    font-weight: 600;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding-right: 4pt;
+    padding-top: 4pt;
+    padding-bottom: 0;
+    text-align: right;
+    word-wrap: normal;
+    line-height: 100%;
+}
+
 img.halves {
     display: inline-block;
     width: 50%;
     padding: 0;
     margin: 0;
+    float: left;
 }
 
 img.thirds {
@@ -259,6 +355,7 @@ img.thirds {
     width: 33.33%;
     padding: 0;
     margin: 0;
+    float: left;
 }
 
 img.quarters {
@@ -266,6 +363,7 @@ img.quarters {
     width: 25%;
     padding: 0;
     margin: 0;
+    float: left;
 }
 
 }
