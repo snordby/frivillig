@@ -267,6 +267,21 @@ p.opstxt {
 
 /* Image properties */
 
+.ven {
+    height: auto;
+    min-width: 260px;
+    display: block;
+    margin: 20px 20px 10px 20px;
+    float: centre;
+    color: #1d0a6b;
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    text-align: left;
+    padding: 10px;
+    display: inline-block;
+}
+
 img.profpic0 {
     display: inline-block;
     width: 100px;
